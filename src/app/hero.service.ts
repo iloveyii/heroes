@@ -2,7 +2,7 @@ import {Injectable} from '@angular/core';
 import {Hero} from './hero';
 import {Observable, of} from 'rxjs';
 import {MessageService} from './message.service';
-import {HttpClient, HttpHeaders, httpOptions} from '@angular/common/http';
+import {HttpClient, HttpHeaders} from '@angular/common/http';
 import {catchError, tap} from 'rxjs/operators';
 
 const httpOptions = {
